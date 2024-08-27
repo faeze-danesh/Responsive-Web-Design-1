@@ -1,0 +1,2824 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="../../BootStrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="../../BootStrap/js/jquery-3.7.1.js"></script>
+    <script src="../../BootStrap/js/bootstrap.bundle.min.js"></script>
+    <link href="resturantstyleshemroon.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            $("#btnchangeLocation").click(function () {
+                $("#myModal").modal("show");
+            });
+        });
+        //window.onload = function () {
+        //    document.getElementsByClassName("tabcontent").style.display = "block";
+        // }
+        //tab script
+        function openMenu(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+  
+        document.getElementById("defaultOpen").click();
+function openTab(evt, tabName) {
+    let tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    let tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+
+
+        //modal script
+
+
+         //$(document).ready(function () {
+         //    for (var i = 0; i < 28; i++) {
+         //        $("#btnShowDetails[i]").click(function () {
+         //            $("#menuModal[i]").modal("show");
+         //        });
+         //    };
+         //});
+
+        $(document).ready(function () {
+            $("#btnShowDetails1").click(function () {
+                $("#menuModal1").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails2").click(function () {
+                $("#menuModal2").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails3").click(function () {
+                $("#menuModal3").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails4").click(function () {
+                $("#menuModal4").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails5").click(function () {
+                $("#menuModal5").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails6").click(function () {
+                $("#menuModal6").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails7").click(function () {
+                $("#menuModal7").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails8").click(function () {
+                $("#menuModal8").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails9").click(function () {
+                $("#menuModal9").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails10").click(function () {
+                $("#menuModal10").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails11").click(function () {
+                $("#menuModal11").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails12").click(function () {
+                $("#menuModal12").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails13").click(function () {
+                $("#menuModal13").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails14").click(function () {
+                $("#menuModal14").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails15").click(function () {
+                $("#menuModal15").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails16").click(function () {
+                $("#menuModal16").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails17").click(function () {
+                $("#menuModal17").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails18").click(function () {
+                $("#menuModal18").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails19").click(function () {
+                $("#menuModal19").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails20").click(function () {
+                $("#menuModal20").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails21").click(function () {
+                $("#menuModal21").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails22").click(function () {
+                $("#menuModal22").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails23").click(function () {
+                $("#menuModal23").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails24").click(function () {
+                $("#menuModal24").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails25").click(function () {
+                $("#menuModal25").modal("show");
+            });
+        }); $(document).ready(function () {
+            $("#btnShowDetails26").click(function () {
+                $("#menuModal26").modal("show");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnShowDetails27").click(function () {
+                $("#menuModal27").modal("show");
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <div class="main-container">
+
+        <div class="container1">
+            <div class="mobile-nav">
+                <div class="mobilenav-items">
+                    <div class="mobilenav-logo">
+                        <i style="text-align:right;" class="fa fa-bars" aria-hidden="true"></i>
+                        <img src="../img/logo.png" alt="Alternate Text" />
+                    </div>
+                    <div class="mobilenav-botton"><a href="#">ورود</a></div>
+                </div>
+            </div>
+
+            <div class="menu-logo">
+                <div class="img-logo">
+                    <a class="nav-link" href="#">
+                        <img class="nav-img" src="img/logo.png" alt="Alternate Text" />
+                    </a>
+                </div>
+
+
+                <nav class="main-nav">
+
+                    <ul class="nav-items">
+                        <a class="items-link" href="#">
+                        <li class="nav-item">صفحه اصلی</li></a>
+                        <a class="items-link" href="#">
+                        <li class="nav-item">سفارش اینترنتی</li></a>
+                        <a class="items-link" href="#">
+                        <li class="nav-item">تماس با ما</li></a>
+                        <a class="items-link" href="#">
+                        <li class="nav-item"> در باره ما</li></a>
+                        <a class="items-link" href="#">
+                        <li class="nav-item nav-enter">ورود</li></a>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="img-kabab">
+                <h1 class="head1">تجریش</h1>
+                <h2 class="head2">آدرس:میدان تجریش/ضلع شمال شرقی</h2>
+
+                <span class="btn btn-primary change-location" id="btnchangeLocation">
+                    تغییر مجموعه
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </span>
+
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content mainBox">
+                            <div class="modal-header myHeader">
+                                <h5 style="margin: 0px 41px;" class="modal-title myTitle" id="exampleModalLabel">لطفا مجموعه مورد نظر خود را انتخاب کنید</h5>
+                                <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <a style="color: #689393; text-align: right; text-decoration: none; margin: 20px 195px; padding: 20px 2px; " href="#">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    تجریش
+                                </a>
+                                <br />
+                                <a style="color: #689393; text-align: right; text-decoration: none; margin: 20px 200px; padding: 20px 2px; " href="#">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    نیاوران
+                                </a>
+                                <br />
+                                <a style="color: #689393; text-align: right; text-decoration: none; margin: 11px 161px; padding: 20px 2px; " href="#">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    دشت بهشت
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Order">
+                    <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                    سفارش می پذیریم
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-9">
+                    <div class="pc-menu">
+                        <div class="first-squre">
+                            <div class="tab-container">
+
+                                <div class="tab">
+                                    <button class="tablinks" onclick="openMenu(event, 'London')">منوی سفارش</button>
+                                    <button class="tablinks" onclick="openMenu(event, 'Paris')">اطلاعات رستوران</button>
+
+                                </div>
+
+                                <div id="London" class="tabcontent">
+
+                                    <div class="categories">
+                                        <span>
+                                            <button class="cat-buton">
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                                            </button>
+                                        </span>
+                                        <div class="category">
+                                            <div class="category-box">
+                                                <a class="catgory-link" href="#go-kabab">
+                                                    <i class="fa fa-pagelines" aria-hidden="true"></i>
+                                                    <br />
+                                                    <strong>کباب</strong>
+                                                </a>
+                                            </div>
+                                            <div class="category-box">
+                                                <a class="catgory-link" href="#go-tarkibi">
+                                                    <i class="fa fa-ravelry" aria-hidden="true"></i>
+                                                    <br />
+
+                                                    <strong>منوی ترکیبی</strong>
+                                                </a>
+                                            </div>
+                                            <div class="category-box">
+                                                <a class="catgory-link" href="#go-pishghaza">
+                                                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                                    <br />
+                                                    <strong>پیش غذا</strong>
+                                                </a>
+                                            </div>
+                                            <div class="category-box">
+                                                <a class="catgory-link" href="#go-nooshidani">
+                                                    <i class="fa fa-glass" aria-hidden="true"></i>
+
+                                                    <br />
+                                                    <strong>نوشیدنی</strong>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <button class="cat-buton">
+                                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+
+                                            </button>
+                                        </span>
+                                    </div>
+
+
+                                    <div class="search-box">
+                                        <div class="search-bar">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                            <input style="outline:none; border:1px solid transparent;" type="search" name="name" value="" placeholder="جستجوی سریع" />
+                                        </div>
+                                    </div>
+
+
+                                    <div class="kabab-title" id="go-kabab">
+                                        کباب
+                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                    </div>
+
+
+
+                                    <div class="kabab-items">
+
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails1">
+                                                <img class="box-img" src="img/kabab/kababha8.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب کوبیده گوسفندی
+                                                    <br />
+                                                    6500000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/kababha8.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails2">
+                                                <img class="box-img" src="img/kabab/kababha2.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    جوجه کباب فیله شمرون
+                                                    <br />
+                                                    410000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/kababha2.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails3">
+                                                <img class="box-img" src="img/kabab/kababha3.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    جوجه با استخوان شمرون
+                                                    <br />
+                                                    410000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/kababha3.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails4">
+                                                <img class="box-img" src="img/kabab/kababha4.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    جوجه کباب ران شمرون
+
+                                                    <br />
+                                                    410000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/kababha4.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails5">
+                                                <img class="box-img" src="img/kabab/kababha5.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب بره شمرون
+
+                                                    <br />
+                                                    1030000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/kababha5.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails6">
+                                                <img class="box-img" src="img/kabab/kababha6.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    شیشلیک شمرون
+
+                                                    <br />
+                                                    1090000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/kababha6.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails7">
+                                                <img class="box-img" src="img/kabab/kababha7.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    میکس کباب خانواده
+
+                                                    <br />
+                                                    3250000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/kababha7.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails8">
+                                                <img class="box-img" src="img/kabab/kababha9.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    چلو کره
+
+                                                    <br />
+                                                    120000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/kababha9.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails9">
+                                                <img class="box-img" src="img/kabab/goje.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    گوجه اضافه
+
+                                                    <br />
+                                                    20000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/kabab/goje.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <div class="kabab-title" id="go-tarkibi">
+                                        منوی ترکیبی
+                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                    </div>
+
+
+                                    <div class="kabab-items">
+
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails10">
+                                                <img class="box-img" src="img/tarkibi/1.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب وزیری
+
+                                                    <br />
+                                                    685,000 تومان
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/tarkibi/1.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails11">
+                                                <img class="box-img" src="img/tarkibi/2.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب امیری
+
+                                                    <br />
+                                                    1,450,000 تومان
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/tarkibi/2.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails12">
+                                                <img class="box-img" src="img/tarkibi/3.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب درباری
+
+                                                    <br />
+                                                    1,450,000 تومان
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/tarkibi/3.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails13">
+                                                <img class="box-img" src="img/tarkibi/4.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب مظفری
+
+
+                                                    <br />
+                                                    1,365,000 تومان
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/tarkibi/4.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails14">
+                                                <img class="box-img" src="img/tarkibi/4.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب شاهی
+
+
+                                                    <br />
+                                                    2,130,000 تومان
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/tarkibi/4.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails15">
+                                                <img class="box-img" src="img/tarkibi/5.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب سالاری
+
+
+                                                    <br />
+                                                    685,000 تومان
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/tarkibi/5.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails16">
+                                                <img class="box-img" src="img/tarkibi/6.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب سلطانی
+
+
+                                                    <br />
+                                                    1,365,000 تومان
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/tarkibi/6.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails17">
+                                                <img class="box-img" src="img/tarkibi/8.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    کباب شکاری
+
+
+                                                    <br />
+                                                    685,000 تومان
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal17" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/tarkibi/8.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                کباب لقمه گوسفندی شمرون
+                                                                650,000 تومان
+                                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <div class="kabab-title" id="go-pishghaza">
+                                        پیش غذا
+                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                    </div>
+
+                                    <div class="kabab-items">
+
+
+
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails27">
+                                                <img class="box-img" src="img/pishghaza/1.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    زیتون
+                                                    <br />
+                                                    150000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal27" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/pishghaza/1.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                زیتون
+                                                                650,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails18">
+                                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    بورانی بادمجان
+                                                    <br />
+                                                    110000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal18" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                بورانی بادمجان
+                                                                110,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails19">
+                                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    بورانی اسفناج
+
+                                                    <br />
+                                                    110000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal19" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                بورانی اسفناج
+                                                                110,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails20">
+                                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    ماست و موسیر
+
+                                                    <br />
+                                                    110000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                ماست و موسیر
+                                                                110,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails21">
+                                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    ماست و شوید
+
+                                                    <br />
+                                                    110000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal21" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                ماست و شوید
+                                                                110,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails22">
+                                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    ماست و خیار
+
+                                                    <br />
+                                                    120000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal22" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                ماست و خیار
+                                                                120,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="kabab-title" id="go-nooshidani">
+                                        نوشیدنی
+                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                    </div>
+
+
+                                    <div class="kabab-items">
+
+
+
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails23">
+                                                <img class="box-img" src="img/nooshidani/1.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    دوغ محلی
+                                                    <br />
+                                                    25000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal23" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/nooshidani/1.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                دوغ محلی
+                                                                25,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails24">
+                                                <img class="box-img" src="img/nooshidani/2.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    آب معدنی
+                                                    <br />
+                                                    6000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal24" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/nooshidani/2.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                آب معدنی
+                                                                6,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails25">
+                                                <img class="box-img" src="img/nooshidani/3.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    نوشابه
+
+                                                    <br />
+                                                    25000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal25" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/nooshidani/3.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                نوشابه
+                                                                25,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kabab-item">
+
+                                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails26">
+                                                <img class="box-img" src="img/nooshidani/4.jpg" alt="Alternate Text" />
+                                                <p class="box-detail">
+                                                    دلستر
+
+                                                    <br />
+                                                    25000
+                                                </p>
+                                                <div class="box-add-item">+</div>
+                                            </span>
+                                            <div class="modal fade modal-box" id="menuModal26" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content mainBox">
+                                                        <div class="modal-header myHeader">
+                                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img class="modal-img" src="img/nooshidani/4.jpg" alt="Alternate Text" />
+                                                            <p class="modal-detail">
+                                                                دلستر
+                                                                25,000 تومان
+
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+
+                                </div>
+
+                                <div id="Paris" class="tabcontent">
+                                    <div class="first-content">
+                                        <div class="service-table">
+                                            <table class="table table-borderd table-selfedit ">
+                                                <div class="head-table">سرویس دهی آنلاین</div>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>صبحانه</td>
+                                                    <td>نهار</td>
+                                                    <td>شام</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>شنبه</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>11:00 تا 00:45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>یکشنبه</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>11:00 تا 00:45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>دوشنبه</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>11:00 تا 00:45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>سه شنبه</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td style="color: rgb(243, 179, 26)">11:00 تا 00:45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>چهارشنبه</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>11:00 تا 00:45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>پنج شنبه</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>11:00 تا 00:45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>جمعه</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>11:00 تا 00:45</td>
+                                                </tr>
+                                            </table>
+
+                                        </div>
+
+                                        <div class="food-model">
+                                            <div class="head-foodmodel"> نوع غذا</div>
+                                            <div class="foods-model">
+                                                <div class="irani-food">غذای ایرانی</div>
+                                                <div class="jegari-food">کبابی یا جگرکی</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="second-content">
+                                        <div class="head-secondcontent">آدرس رستوران</div>
+                                        <div class="detail-secondcontent">
+                                            میدان تجریش، ضلع شمال شرقی
+                                            <br />
+                                            تلفن:
+                                            <a class="telephone-link" href="#">22746007</a>
+                                            <a class="telephone-link" href="#">746008</a>
+                                            <a class="telephone-link" href="#">177522</a>
+                                        </div>
+                                    </div>
+                                    <div class="third-content">
+
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d25891.35811965089!2d51.40481774759667!3d35.78962694332188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sshemroon%20kabab!5e0!3m2!1sen!2s!4v1722680713798!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-3">
+                    <div class="basket-shop">
+                        <div class="basket-text">سبد خرید</div>
+                        <img class="basket-img" src="../img/emptybasket.png" alt="Alternate Text" />
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--<div class="container">
+            <div class="row">
+
+            </div>
+        </div>-->
+        <div class="mobile-menu">
+            <div class="tab-container">
+                <div class="tab">
+                    <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'tab1')">منوی سفارش</button>
+                    <button class="tablinks" onclick="openTab(event, 'tab2')">اطلاعات رستوران</button>
+
+                </div>
+
+                <div id="tab1" class="tabcontent">
+
+
+                    <div class="categories">
+                        <span>
+                            <button class="cat-buton">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                            </button>
+                        </span>
+                        <div class="category">
+                            <div class="category-box">
+                                <a class="catgory-link" href="#go-kabab">
+                                    <i class="fa fa-pagelines" aria-hidden="true"></i>
+                                    <br />
+                                    <strong>کباب</strong>
+                                </a>
+                            </div>
+                            <div class="category-box">
+                                <a class="catgory-link" href="#go-tarkibi">
+                                    <i class="fa fa-ravelry" aria-hidden="true"></i>
+                                    <br />
+
+                                    <strong>منوی ترکیبی</strong>
+                                </a>
+                            </div>
+                            <div class="category-box">
+                                <a class="catgory-link" href="#go-pishghaza">
+                                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                    <br />
+                                    <strong>پیش غذا</strong>
+                                </a>
+                            </div>
+                            <div class="category-box">
+                                <a class="catgory-link" href="#go-nooshidani">
+                                    <i class="fa fa-glass" aria-hidden="true"></i>
+
+                                    <br />
+                                    <strong>نوشیدنی</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <span>
+                            <button class="cat-buton">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+
+                            </button>
+                        </span>
+                    </div>
+
+
+                    <div class="search-box">
+                        <div class="search-bar">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input style="outline:none; border:1px solid transparent;" type="search" name="name" value="" placeholder="جستجوی سریع" />
+                        </div>
+                    </div>
+
+
+                    <div class="kabab-title" id="go-kabab">
+                        کباب
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                    </div>
+
+
+
+                    <div class="kabab-items">
+
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails1">
+                                <img class="box-img" src="img/kabab/kababha8.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب کوبیده گوسفندی
+                                    <br />
+                                    6500000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/kababha8.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails2">
+                                <img class="box-img" src="img/kabab/kababha2.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    جوجه کباب فیله شمرون
+                                    <br />
+                                    410000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/kababha2.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails3">
+                                <img class="box-img" src="img/kabab/kababha3.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    جوجه با استخوان شمرون
+                                    <br />
+                                    410000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/kababha3.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails4">
+                                <img class="box-img" src="img/kabab/kababha4.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    جوجه کباب ران شمرون
+
+                                    <br />
+                                    410000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/kababha4.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails5">
+                                <img class="box-img" src="img/kabab/kababha5.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب بره شمرون
+
+                                    <br />
+                                    1030000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/kababha5.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails6">
+                                <img class="box-img" src="img/kabab/kababha6.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    شیشلیک شمرون
+
+                                    <br />
+                                    1090000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/kababha6.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails7">
+                                <img class="box-img" src="img/kabab/kababha7.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    میکس کباب خانواده
+
+                                    <br />
+                                    3250000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/kababha7.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails8">
+                                <img class="box-img" src="img/kabab/kababha9.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    چلو کره
+
+                                    <br />
+                                    120000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/kababha9.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails9">
+                                <img class="box-img" src="img/kabab/goje.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    گوجه اضافه
+
+                                    <br />
+                                    20000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/kabab/goje.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="kabab-title" id="go-tarkibi">
+                        منوی ترکیبی
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                    </div>
+
+
+                    <div class="kabab-items">
+
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails10">
+                                <img class="box-img" src="img/tarkibi/1.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب وزیری
+
+                                    <br />
+                                    685,000 تومان
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/tarkibi/1.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails11">
+                                <img class="box-img" src="img/tarkibi/2.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب امیری
+
+                                    <br />
+                                    1,450,000 تومان
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/tarkibi/2.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails12">
+                                <img class="box-img" src="img/tarkibi/3.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب درباری
+
+                                    <br />
+                                    1,450,000 تومان
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/tarkibi/3.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails13">
+                                <img class="box-img" src="img/tarkibi/4.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب مظفری
+
+
+                                    <br />
+                                    1,365,000 تومان
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/tarkibi/4.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails14">
+                                <img class="box-img" src="img/tarkibi/4.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب شاهی
+
+
+                                    <br />
+                                    2,130,000 تومان
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/tarkibi/4.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails15">
+                                <img class="box-img" src="img/tarkibi/5.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب سالاری
+
+
+                                    <br />
+                                    685,000 تومان
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/tarkibi/5.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails16">
+                                <img class="box-img" src="img/tarkibi/6.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب سلطانی
+
+
+                                    <br />
+                                    1,365,000 تومان
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/tarkibi/6.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails17">
+                                <img class="box-img" src="img/tarkibi/8.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    کباب شکاری
+
+
+                                    <br />
+                                    685,000 تومان
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal17" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/tarkibi/8.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                کباب لقمه گوسفندی شمرون
+                                                650,000 تومان
+                                                دوسیخ کباب لقمه گوسفندی ذغالی(هر سیخ 250 گرم)،گوجه فرنگی،فلفل کبابی،ریحان تازه،ترشی انبه،پیاز قرمز
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="kabab-title" id="go-pishghaza">
+                        پیش غذا
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="kabab-items">
+
+
+
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails27">
+                                <img class="box-img" src="img/pishghaza/1.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    زیتون
+                                    <br />
+                                    150000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal27" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/pishghaza/1.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                زیتون
+                                                650,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails18">
+                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    بورانی بادمجان
+                                    <br />
+                                    110000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal18" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                بورانی بادمجان
+                                                110,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails19">
+                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    بورانی اسفناج
+
+                                    <br />
+                                    110000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal19" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                بورانی اسفناج
+                                                110,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails20">
+                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    ماست و موسیر
+
+                                    <br />
+                                    110000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                ماست و موسیر
+                                                110,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails21">
+                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    ماست و شوید
+
+                                    <br />
+                                    110000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal21" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                ماست و شوید
+                                                110,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails22">
+                                <img class="box-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    ماست و خیار
+
+                                    <br />
+                                    120000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal22" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/pishghaza/2.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                ماست و خیار
+                                                120,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="kabab-title" id="go-nooshidani">
+                        نوشیدنی
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                    </div>
+
+
+                    <div class="kabab-items">
+
+
+
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails23">
+                                <img class="box-img" src="img/nooshidani/1.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    دوغ محلی
+                                    <br />
+                                    25000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal23" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/nooshidani/1.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                دوغ محلی
+                                                25,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails24">
+                                <img class="box-img" src="img/nooshidani/2.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    آب معدنی
+                                    <br />
+                                    6000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal24" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/nooshidani/2.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                آب معدنی
+                                                6,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails25">
+                                <img class="box-img" src="img/nooshidani/3.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    نوشابه
+
+                                    <br />
+                                    25000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal25" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/nooshidani/3.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                نوشابه
+                                                25,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kabab-item">
+
+                            <span class="btn btn-primary kabab-item-box" id="btnShowDetails26">
+                                <img class="box-img" src="img/nooshidani/4.jpg" alt="Alternate Text" />
+                                <p class="box-detail">
+                                    دلستر
+
+                                    <br />
+                                    25000
+                                </p>
+                                <div class="box-add-item">+</div>
+                            </span>
+                            <div class="modal fade modal-box" id="menuModal26" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content mainBox">
+                                        <div class="modal-header myHeader">
+                                            <h5 class="modal-title myTitle" id="exampleModalLabel">
+                                            </h5>
+                                            <button type="button" class="close btnclose" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modal-img" src="img/nooshidani/4.jpg" alt="Alternate Text" />
+                                            <p class="modal-detail">
+                                                دلستر
+                                                25,000 تومان
+
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">انصراف</button>
+                                            <button type="button" class="btn btn-primary">افزودن به سبد خرید</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div id="tab2" class="tabcontent">
+
+                    <div class="first-content">
+                        <div class="service-table">
+                            <table class="table table-borderd table-selfedit ">
+                                <div class="head-table">سرویس دهی آنلاین</div>
+                                <tr>
+                                    <td></td>
+                                    <td>صبحانه</td>
+                                    <td>نهار</td>
+                                    <td>شام</td>
+                                </tr>
+
+                                <tr>
+                                    <td>شنبه</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>11:00 تا 00:45</td>
+                                </tr>
+                                <tr>
+                                    <td>یکشنبه</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>11:00 تا 00:45</td>
+                                </tr>
+                                <tr>
+                                    <td>دوشنبه</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>11:00 تا 00:45</td>
+                                </tr>
+                                <tr>
+                                    <td>سه شنبه</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td style="color: rgb(243, 179, 26)">11:00 تا 00:45</td>
+                                </tr>
+                                <tr>
+                                    <td>چهارشنبه</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>11:00 تا 00:45</td>
+                                </tr>
+                                <tr>
+                                    <td>پنج شنبه</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>11:00 تا 00:45</td>
+                                </tr>
+                                <tr>
+                                    <td>جمعه</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>11:00 تا 00:45</td>
+                                </tr>
+                            </table>
+
+                        </div>
+
+                        <div class="food-model">
+                            <div class="head-foodmodel"> نوع غذا</div>
+                            <div class="foods-model">
+                                <div class="irani-food">غذای ایرانی</div>
+                                <div class="jegari-food">کبابی یا جگرکی</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="second-content">
+                        <div class="head-secondcontent">آدرس رستوران</div>
+                        <div class="detail-secondcontent">
+                            میدان تجریش، ضلع شمال شرقی
+                            <br />
+                            تلفن:
+                            <a class="telephone-link" href="#">22746007</a>
+                            <a class="telephone-link" href="#">746008</a>
+                            <a class="telephone-link" href="#">177522</a>
+                        </div>
+                    </div>
+                    <div class="third-content">
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d25891.35811965089!2d51.40481774759667!3d35.78962694332188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sshemroon%20kabab!5e0!3m2!1sen!2s!4v1722680713798!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <div class="shemroon-footer">
+        <div class="footer-text">
+            © حقوق مادی و معنوی متعلق به شمرون کباب است
+        </div>
+        <div class="facebook-insta">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+
+        </div>
+        <div class="call-shemroon">
+            تماس تلفنی
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+    </div>
+</body>
+</html>
